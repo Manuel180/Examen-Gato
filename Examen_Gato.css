@@ -1,0 +1,61 @@
+.cuadrado
+{   
+	width: 300px;
+	height: 200px;
+	background-color: gray;
+	border: solid  black 1px;
+	display: inline-block;
+	font-size: 70px;
+	cursor: pointer;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.todo
+{
+	position: relative;
+	margin-top: -30%;
+	text-align: center;
+}
+
+body
+{
+	background-color: black;
+}
+
+.container
+{
+	
+	margin-top: 30%;
+	
+}
+
+.container2
+{
+     position: relative;	
+	width: 40%;
+	margin-top: -18%;
+	right: -30%;
+	
+}
+
+.inicio
+{
+	width: 0%;
+}
+
+.final
+{
+	width: 100%;
+}
+
+.animacion
+{
+	transition: all 8s ease .5s;
+}
+
+.puntos
+{
+	position: absolute;
+	right: 1025px;
+}

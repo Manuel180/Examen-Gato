@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Examen_Gato.css">
+	<link rel="stylesheet" type="text/css" href="animate.css">
+        <script type="text/javascript" src="jquery-3.4.1.js"></script>
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <script type="text/javascript" src="Examen_Gato.js"></script>
+         <script type="text/javascript" src="js/bootstrap.js"></script>
+      <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<title></title>
+
+</head>
+<body>
+
+	<div class="container letras animated bounce infinite" style="margin-top: 3%">
+	<div class="row d-flex justify-content-center" style="background-color: black; text-align: center; font-size: 100px;
+	color: white;">
+	<div class="col-lg-3" id="g">G</div>
+	<div class="col-lg-3" id="a">A</div>
+	<div class="col-lg-3" id="t">T</div>
+	<div class="col-lg-3" id="o">O</div>
+</div>
+</div>
+
+
+
+<div class="container animated fadeInDown" id="barra-progreso" style="margin-top: 10%">
+	<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-dark progress-bar-animated inicio animacion" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" id="hola" >Cargando...</div>
+</div>
+</div> 
+
+<div class="d-flex justify-content-center" style="margin-top: 20%">
+	<div class="btn btn-primary animated shake" id="boton" onclick="animar()">Empezar</div>
+
+</div>
+
+<div class="puntos animated tada">
+	<div id="puntosX" style="color: white">Puntos X= <span class="espanX" style="color: white">0</span></div>
+<div id="puntosO" style="color: white">Puntos O= <span class="espanO" style="color: white">0</span></div>
+</div>
+
+<div class="container2">
+<div class="row">
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Cuno"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Cdos"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Ctres"></div>
+</div>
+<div class="row">
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Ccuatro"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Ccinco"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Cseis"></div>
+</div>
+<div class="row">
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Csiete"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Ceight"></div>
+  <div class="cuadrado col-xs-4 col-sm-4 col-md-4" id="Cnueve"></div>
+</div>
+</div>
+
+
+  
+
+
+
+</body>
+</html>

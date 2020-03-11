@@ -32,18 +32,18 @@ $("#Csiete").html()=="O" && $("#Ceight").html()=="O" && $("#Cnueve").html()=="O"
 $("#Cuno").html()=="O" && $("#Ccinco").html()=="O" && $("#Cnueve").html()=="O"||
 $("#Ctres").html()=="O" && $("#Ccinco").html()=="O" && $("#Csiete").html()=="O"|| 
 $("#Cuno").html()=="O" && $("#Ccuatro").html()=="O" && $("#Csiete").html()=="O"||
-$("#Cdos").html()=="O" && $("#Ccinco").html()=="O" && $("#Cocho").html()=="O"||
+$("#Cdos").html()=="O" && $("#Ccinco").html()=="O" && $("#Ceight").html()=="O"||
 $("#Ctres").html()=="O" && $("#Cseis").html()=="O" && $("#Cnueve").html()=="O") {
   alert("Ganó O");
 $("#Cuno").empty();
-$("#dos").empty();
-$("#tres").empty();
+$("#Cdos").empty();
+$("#Ctres").empty();
 $("#Ccuatro").empty();
 $("#Ccinco").empty();
 $("#Cseis").empty();
 $("#Csiete").empty();
 $("#Ceight").empty();
-$("#nueve").empty();
+$("#Cnueve").empty();
  jugadorO++;
  $(".espanO").html(jugadorO);
 }
@@ -56,18 +56,18 @@ $("#Csiete").html()=="X" && $("#Ceight").html()=="X" && $("#Cnueve").html()=="X"
 $("#Cuno").html()=="X" && $("#Ccinco").html()=="X" && $("#Cnueve").html()=="X"||
 $("#Ctres").html()=="X" && $("#Ccinco").html()=="X" && $("#Csiete").html()=="X"|| 
 $("#Cuno").html()=="X" && $("#Ccuatro").html()=="X" && $("#Csiete").html()=="X"||
-$("#Cdos").html()=="X" && $("#Ccinco").html()=="X" && $("#Cocho").html()=="X"||
+$("#Cdos").html()=="X" && $("#Ccinco").html()=="X" && $("#Ceight").html()=="X"||
 $("#Ctres").html()=="X" && $("#Cseis").html()=="X" && $("#Cnueve").html()=="X") {
   alert("Ganó X");
 $("#Cuno").empty();
-$("#dos").empty();
-$("#tres").empty();
+$("#Cdos").empty();
+$("#Ctres").empty();
 $("#Ccuatro").empty();
 $("#Ccinco").empty();
 $("#Cseis").empty();
 $("#Csiete").empty();
 $("#Ceight").empty();
-$("#nueve").empty();
+$("#Cnueve").empty();
 jugadorX++;
  $(".espanX").html(jugadorX);
 }

@@ -1,7 +1,7 @@
 .cuadrado
 {   
 	width: 300px;
-	height: 200px;
+	height: 190px;
 	background-color: gray;
 	border: solid  black 1px;
 	display: inline-block;
@@ -51,7 +51,7 @@ body
 
 .animacion
 {
-	transition: all 8s ease .5s;
+	transition: all 8s ;
 }
 
 .puntos
@@ -59,3 +59,6 @@ body
 	position: absolute;
 	right: 1025px;
 }
+
+
+
